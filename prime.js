@@ -15,7 +15,7 @@ if(cnt==2){
 return true;
 }
 else
-return false;
+{return false;}
 
 }
 
@@ -23,6 +23,7 @@ var answer=check_prime(13);
 
 if(answer==true)
 console.log("prime number");
+
 else
 console.log("not a prime number");
 
