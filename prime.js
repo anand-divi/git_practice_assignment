@@ -15,13 +15,13 @@ if(cnt==2){
 return true;
 }
 else
-return false;
+{return false;}
 
 }
 
 var ans=check_prime(13);
 
-if(ans==false)
+if(ans==true)
 console.log("prime");
 else
 console.log("not prime");
