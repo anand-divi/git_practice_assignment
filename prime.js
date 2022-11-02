@@ -1,11 +1,11 @@
 
 
-function check_prime(num){
+function check_prime(number){
 
 var cnt=0;
 
-for(var i=1;i<=num;i++){
-if(num%i==0)
+for(var i=1;i<=number;i++){
+if(number%i==0)
 {
 cnt++;
 }
@@ -19,12 +19,13 @@ else
 
 }
 
-var ans=check_prime(13);
+var answer=check_prime(13);
 
-if(ans==true)
-console.log("prime");
+if(answer==true)
+console.log("prime number");
+
 else
-console.log("not prime");
+console.log("not a prime number");
 
 
 
